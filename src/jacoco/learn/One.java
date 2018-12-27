@@ -5,7 +5,7 @@ public class One {
 	  public String foo() {
 	    return message;
 	  }
-	  public void uncoveredMethod() {
-	    System.out.println(foo());
+	  public int uncoveredMethod() {
+	    return 7;
 	  }
 	}

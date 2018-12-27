@@ -5,7 +5,9 @@ import org.junit.Test;
 public class OneTest {
   @Test
   public void testFoo() throws Exception {
+	  
     One one = new One();
     assertEquals("foo", one.foo());
+    assertEquals(7, one.uncoveredMethod());
    }
 }

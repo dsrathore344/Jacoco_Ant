@@ -8,7 +8,7 @@ public class TwoTest {
 
 	@Test
 	public void test() {
-		
+			Two t = new Two();
 			assertEquals("this is the test", Two.show());
 		}
 	}
